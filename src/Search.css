@@ -14,7 +14,8 @@
   background-color: white;
   position: absolute;
   left: 0;
-  top: 380px;
+  top: 349px;
+  margin: 0;
 }
 
 .search > input {
@@ -23,6 +24,26 @@
   position: absolute;
   left: 0;
   height: 30px;
-  top: 420px;
+  top: 390px;
   border: none;
+}
+
+.search > input:focus {
+  outline-width: 0;
+}
+
+.search > button {
+  position: absolute;
+  left: 0;
+  top: 460px;
+  text-transform: inherit !important;
+  background-color: #ff7779;
+  color: white;
+  width: 579px;
+  border-radius: 0;
+}
+
+.search > button:hover {
+  background-color: white;
+  color: #ff7779;
 }
